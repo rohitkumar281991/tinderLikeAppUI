@@ -44,11 +44,11 @@ public class MainActivity extends AppCompatActivity implements FlingCardListener
         flingContainer = (SwipeFlingAdapterView) findViewById(R.id.frame);
 
         al = new ArrayList<>();
-        al.add(new Data("http://i.ytimg.com/vi/PnxsTxV8y3g/maxresdefault.jpg", "Hi,, THis is first image detals"));
-        al.add(new Data("http://i.ytimg.com/vi/PnxsTxV8y3g/maxresdefault.jpg", "ooooohh... This is 2nd image details"));
-        al.add(new Data("http://i.ytimg.com/vi/PnxsTxV8y3g/maxresdefault.jpg", "THis is for 3rd image details"));
-        al.add(new Data("http://i.ytimg.com/vi/PnxsTxV8y3g/maxresdefault.jpg", "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness."));
-        al.add(new Data("http://i.ytimg.com/vi/PnxsTxV8y3g/maxresdefault.jpg", "Epology.. last image.."));
+        al.add(new Data("https://pbs.twimg.com/profile_images/1620149654/avatar.jpg", "Hi,, THis is first image detals"));
+        al.add(new Data("https://pbs.twimg.com/profile_images/1620149654/avatar.jpg", "ooooohh... This is 2nd image details"));
+        al.add(new Data("https://pbs.twimg.com/profile_images/1620149654/avatar.jpg", "THis is for 3rd image details"));
+        al.add(new Data("https://pbs.twimg.com/profile_images/1620149654/avatar.jpg", "Another details section."));
+        al.add(new Data("https://pbs.twimg.com/profile_images/1620149654/avatar.jpg", "Epology.. last image.."));
 
         myAppAdapter = new MyAppAdapter(al, MainActivity.this);
         flingContainer.setAdapter(myAppAdapter);
